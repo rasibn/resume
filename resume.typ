@@ -72,13 +72,13 @@
 #resume-entry(
   title: "Teaching Assistant",
   location: "Karachi, Pakistan",
-  date: "Spring 2023 - 8 months",
+  date: "Spring 2023 - 16 months",
   description: "Institute of Business Administration",
 )
 
 #resume-item[
-  - Improved student understanding of complex algorithms by conducting tutorials and 1-on-1 sessions for Theory of Computation and Design & Analysis of Algorithms courses.
-  - Enhanced learning outcomes for 160 students by providing detailed individual feedback on problemset solutions.
+- Held tutorials and office hours to clarify difficult topics in Theory of Computation and Algorithm Design courses.
+- Provided tailored feedback on assignments for 160+ students, improving their grasp of key concepts.
 ]
 
 = Projects
