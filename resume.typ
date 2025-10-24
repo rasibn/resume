@@ -8,12 +8,12 @@
     homepage: "https://rasib.me",
     phone: "(+92) 304-2353678",
     github: "rasibn",
-    twitter: "",
-    scholar: "",
-    orcid: "",
-    birth: "",
-    linkedin: "",
-    address: "",
+    twitter: "rasibx",
+    // scholar: "",
+    // orcid: "",
+    // birth: "",
+    linkedin: "muhammad-rasib-nadeem",
+    // address: "",
     positions: (
       "Backend/Fullstack Software Engineer",
     ),
@@ -40,26 +40,35 @@
 )
 
 #resume-item[
-  - Developed a localization service (Python) leveraging AI (LLMs) for app-wide translation, significantly reducing launch costs for new services.
-  - Contributed to the Food Search service (Golang), rewriting it for more efficient data aggregation from downstream services and powering the main /search API used by the Careem Food App.
-  - Led the backend team for Careem's tenants vertical, delivering 6 new service launches, including Lab Test, Pest Control, IV Therapy, Home Cleaning, and Laundry.
-  - Integrated kafka events for new services orders with the global activities platform responsible for display user activities on the Careem SuperApp.
-  - Contributed to the Careem Bikes service (Java), including refactoring its pure TCP server responsible for interacting with on-device IOT chips.
-  - Contributed to the frontend of the Tenants mini-app, launching new offer cards and campaigns based on user segments using Careem's internal cross-platform frontend framework.
+  *Bikes & Tenants team* (Golang, Springboot, NextJS, MySQL)
+  - Merged Laundry, Home Cleaning, and Salon&Spa into a single Home&Spa category by migrating 3 microservices and terabytes of data.
+  - Launched 5 new services (Lab Test, Pest Control, IV Therapy, Packers&Movers, Flu Vaccine) in the tenants vertical as the only backend engineer in the team.
+  - Cut P95 response time by 40% by fixing N+1 query problems in commonly used JPA queries.
+  - Built a full-stack dashboard for operators to manage bike stations and their coverage zones.
+  - Handled on-call incidents for bikes and tenants services, shipped numerous bug fixes and maintained 99.9% service uptime.
+
+  *Food team* (Golang, Elastic Search)
+  - Automated OpenAPI docs generation for legacy endpoints, removing manual documentation work.
+  - Built tooling to change log levels for any service without redeployment.
+  - Powered top 10 restaurant lists in Careem Food app by building personalized curation endpoint.
+
+  *Localization team* (Python, pandas, FastAPI)
+  - Streamlined app-wide translation process by building reviewer CRUD for LLM-generated translations for localization service.
+
 ]
 
-#resume-entry(
-  title: "Business Solution + IT Intern",
-  location: "Karachi, Pakistan",
-  date: "Summer 2023 - 2 months",
-  description: "PTCL Business Solutions",
-)
-
-#resume-item[
-  - Automated the process of extracting information from email and publishing to the company dashboard; wrote a python automation scripts that exact data from emails using IMAP protocol and then used LLM to parse the email data as json to upload to notion dashboard.
-  - Performed misc. IT and Network troubleshooting.
-]
-
+// #resume-entry(
+//   title: "IT Intern",
+//   location: "Karachi, Pakistan",
+//   date: "Summer 2023 - 2 months",
+//   description: "PTCL Business Solutions",
+// )
+//
+// #resume-item[
+//   - Automated the process of extracting information from email and publishing to the company dashboard; wrote a python automation scripts that exact data from emails using IMAP protocol and then used LLM to parse the email data as json to upload to notion dashboard.
+//   - Performed misc. IT and Network troubleshooting.
+// ]
+//
 #resume-entry(
   title: "Teaching Assistant",
   location: "Karachi, Pakistan",
@@ -68,8 +77,8 @@
 )
 
 #resume-item[
-  - Conducted tutorials, 1-on-1 sessions to help students solve problemsets for Theory Of Computation and Analysis of Algorithms courses.
-  - Graded and provided individual feedback on their solutions for 160 students.
+  - Improved student understanding of complex algorithms by conducting tutorials and 1-on-1 sessions for Theory of Computation and Design & Analysis of Algorithms courses.
+  - Enhanced learning outcomes for 160 students by providing detailed individual feedback on problemset solutions.
 ]
 
 = Projects
@@ -82,33 +91,22 @@
 )
 
 #resume-item[
-  - Built a programming language from the ground up with mathematical ergonomics primarily as a DSL for quantum computing that transpiles to Python NumPy for efficient computing
-  - Implemented lexer, parser, and semantic analyzer with support for functions, variables, scoping, basic types, arrays, and matrix operations
+  - Created an ergonomic DSL for quantum computing by building a complete programming language that transpiles to Python NumPy for efficient computation.
+  - Achieved full language functionality by implementing lexer, parser, and semantic analyzer supporting functions, variables, scoping, types, arrays, and matrix operations.
 ]
 
-#resume-entry(
-  title: "Rustaurant",
-  location: [#github-link("rasibn/Rustaurant")],
-  date: "",
-  description: "Rust, WASM, axum, mongoDB",
-)
+// #resume-entry(
+//   title: "Rustaurant",
+//   location: [#github-link("rasibn/Rustaurant")],
+//   date: "",
+//   description: "Rust, WASM, axum, mongoDB",
+// )
+//
+// #resume-item[
+//   - Created a WASM based restaurant reviewing website using Rust (Used MongoDB as the db but probably should have tried opensearch :)
+// ]
+//
 
-#resume-item[
-  - Created a WASM based restaurant reviewing website using Rust (Used MongoDB as the db but probably should have tried opensearch :)
-]
-
-#resume-entry(
-  title: "BrickBreaker",
-  location: [#github-link("rasibn/BrickBreaker")],
-  date: "",
-  description: "Java Swing",
-)
-
-#resume-item[
-  - Led a team of five members, delegated tasks, and ensured effective collaboration.
-  - Structured game logic using common design patterns (e.g., factory, singleton, abstract factory, builder)
-  - Conducted testing on Windows, MacOS and Linux.
-]
 
 = Skills
 
@@ -118,21 +116,23 @@
     strong("Golang"),
     strong("Python"),
     strong("JavaScript/TypeScript"),
+    strong("Rust"),
     "Java",
-    "Rust",
   ),
 )
 #resume-skill-item(
-  "Frameworks & Technologies",
+  "Technologies",
   (
     "React",
     "Vue",
     "Svelte",
+    "Springboot",
+    "Kafka",
     "Linux",
+    "Nix",
     "Docker",
   ),
 )
-// spacing fix, not needed if you use `resume-skill-grid`
 #block(below: 0.65em)
 
 = Education
@@ -148,13 +148,13 @@
   - CGPA: 3.70
 ]
 
-#resume-entry(
-  title: "Whales College",
-  location: "Karachi",
-  date: "2018 - 2020",
-  description: "A'levels",
-)
-
-#resume-item[
-  - Grades: A\*A\*A\* in Physics, Chemistry, and Mathematics
-]
+// #resume-entry(
+//   title: "Whales College",
+//   location: "Karachi",
+//   date: "2018 - 2020",
+//   description: "A'levels",
+// )
+//
+// #resume-item[
+//   - Grades: A\*A\*A\* in Physics, Chemistry, and Mathematics
+// ]
