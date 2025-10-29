@@ -5,7 +5,7 @@
     firstname: "Rasib",
     lastname: "Nadeem",
     email: "rasibnadeem101@gmail.com",
-    homepage: "https://rasib.me",
+    homepage: "https://rasibx.com",
     phone: "(+92) 304-2353678",
     github: "rasibn",
     twitter: "rasibx",
@@ -41,11 +41,11 @@
 
 #resume-item[
   *Bikes & Tenants team* (Golang, Springboot, NextJS, MySQL)
-  - Merged Laundry, Home Cleaning, and Salon&Spa into a single Home&Spa category by migrating 3 microservices and terabytes of data.
-  - Launched 5 new services (Lab Test, Pest Control, IV Therapy, Packers&Movers, Flu Vaccine) in the tenants vertical as the only backend engineer in the team.
-  - Cut P95 response time by 40% by fixing N+1 query problems in commonly used JPA queries.
+  - Unified Laundry, Home Cleaning, and Salon & Spa services into a single Home & Spa category and migrated terabytes of user data with zero downtime.
+  - Integrated 5 new services (Lab Test, Pest Control, IV Therapy, Packers&Movers, Flu Vaccine)  for Careem tenants.
+  - Cut P95 latency by 2x for popular endpoints by fixing N+1 query problems in commonly used JPA queries.
   - Built a full-stack dashboard for operators to manage bike stations and their coverage zones.
-  - Handled on-call incidents for bikes and tenants services, shipped numerous bug fixes and maintained 99.9% service uptime.
+  - Handled on-call incidents for bikes and tenants services, shipped numerous bug fixes and maintained high service uptime.
 
   *Food team* (Golang, Elastic Search)
   - Automated OpenAPI docs generation for legacy endpoints, removing manual documentation work.
@@ -53,7 +53,7 @@
   - Powered top 10 restaurant lists in Careem Food app by building personalized curation endpoint.
 
   *Localization team* (Python, pandas, FastAPI)
-  - Streamlined app-wide translation process by building reviewer CRUD for LLM-generated translations for localization service.
+  - Streamlined app-wide translation process by building reviewer CRUD for LLM-generated translations.
 
 ]
 
@@ -124,9 +124,9 @@
   "Technologies",
   (
     "React",
-    "Vue",
+    "Vue.js",
     "Svelte",
-    "Springboot",
+    "Spring Boot",
     "Kafka",
     "Linux",
     "Nix",
@@ -145,7 +145,7 @@
 )
 
 #resume-item[
-  - CGPA: 3.70
+  - CGPA: 3.67
 ]
 
 // #resume-entry(
