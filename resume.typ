@@ -33,7 +33,7 @@
 = Professional Experience
 
 #resume-entry(
-  title: "Software Engineer",
+  title: "Software Engineer II",
   location: "Remote, Pakistan",
   date: "June 2024 - Present",
   description: "Careem",
@@ -42,7 +42,8 @@
 #resume-item[
   *Bikes & Tenants team* (Golang, Springboot, NextJS, MySQL)
   - Unified Laundry, Home Cleaning, and Salon & Spa services into a single Home & Spa category and migrated terabytes of user data with zero downtime.
-  - Integrated 5 new services (Lab Test, Pest Control, IV Therapy, Packers&Movers, Flu Vaccine)  for Careem tenants.
+  - Led backend engineering for the tenants vertical, delivering 5 new services (Lab Test, Pest Control, IV Therapy, Packers & Movers, Flu
+  Vaccine) in under 6 months.
   - Cut P95 latency by 2x for popular endpoints by fixing N+1 query problems in commonly used JPA queries.
   - Built a full-stack dashboard for operators to manage bike stations and their coverage zones.
   - Handled on-call incidents for bikes and tenants services, shipped numerous bug fixes and maintained high service uptime.
