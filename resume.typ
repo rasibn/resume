@@ -5,7 +5,7 @@
     firstname: "Rasib",
     lastname: "Nadeem",
     email: "rasibnadeem101@gmail.com",
-    homepage: "https://rasibx.com",
+    // homepage: "https://rasibx.com",
     phone: "(+92) 304-2353678",
     github: "rasibn",
     twitter: "rasibx",
@@ -15,7 +15,7 @@
     linkedin: "muhammad-rasib-nadeem",
     // address: "",
     positions: (
-      "Backend/Fullstack Software Engineer",
+      "AI-Native Software Engineer",
     ),
     custom: (),
   ),
@@ -30,6 +30,13 @@
   paper-size: "a4",
 )
 
+#set par(spacing: 1.1em)
+#set list(spacing: 1.0em)
+
+= Professional Summary
+
+High-agency software engineer with 2+ years at Careem (an Uber company) building payment and billing systems, microservices, frontends and data-heavy products used by millions of riders. Proven record of shipping revenue-critical features, fixing production outages, and leading delivery of 5 new product lines in 6 months. Strong in Golang, TypeScript, Java, Python, and event-driven architecture.
+
 = Professional Experience
 
 #resume-entry(
@@ -40,17 +47,18 @@
 )
 
 #resume-item[
-  *Bikes & Tenants team* (Golang, Springboot, NextJS, MySQL, Kafka)
-  - Migrated trip payment flow from synchronous to asynchronous, fixing silent charge and refund drops in the Kafka consumer by statefully tracking pending capture/refund states on invoices and settling them via payment provider callbacks.
-  - Built Pay-As-You-Go billing with MIT pre-authorization for group rides, reusing payment consent for returning users with CIT fallback.
-  - Migrated bike passes from third-party vendor to in-house system, enabling full ownership of subscription lifecycle and pricing; rolled out via feature flags with zero downtime.
-  - Diagnosed and resolved a series of production database performance issues including N+1 queries and a timing-out query choking on 7.5M rows; replacing a LATERAL join with a MAX subquery alone yielded up to 42x speedup, cutting P95 latency by 2x and restoring database stability.
-  - Consolidated multiple home services categories into a unified vertical, migrating terabytes of user data with zero downtime.
-  - Led backend engineering for the tenants vertical, delivering 5 new services (Lab Test, Pest Control, IV Therapy, Packers & Movers, Flu Vaccine) in under 6 months.
-  - Built a full-stack operator dashboard in React with interactive map interfaces for drawing and managing geospatial coverage zones and real-time vehicle positions.
+  *Bikes & Tenants team* (Golang, Spring Boot, NextJS, MySQL, Kafka)
+  - Reduced silent payment and refund failures to zero by rebuilding the trip billing flow as an event-driven system that guarantees every charge and refund completes, even across service restarts; on track to lift payment success rate by 5+ points in Dubai to ~97% and ~10 points in Madinah to ~82% at full rollout.
+  - Eliminated recurring production database outages by fixing slow queries on tables with 7.5M+ rows, improving response times by up to 42x and cutting customer-facing latency in half.
+  - Owned the migration of bike subscriptions from a third-party vendor to an in-house billing platform, bringing recurring payments and pricing fully in-house with zero downtime for existing subscribers.
+  - Designed and launched Pay-As-You-Go billing for group rides, a new revenue stream, including secure card pre-authorization and automatic retries that recover failed payments without user action.
+  - Led backend delivery of 5 new tenant service lines (including Lab Test and Pest Control) in under 6 months, each shipped on time with full payment and data integration.
+  - Migrated terabytes of customer data across home services categories with zero downtime and no data loss.
+  - Built an internal operator dashboard used daily by operations teams to manage vehicles, pricing zones, and stations; drove its adoption by consistently shipping proactive fixes and UX improvements well beyond the initial scope.
+  - Strengthened release reliability by automating the release pipeline and expanding end-to-end test coverage across payment, subscription, and trip services.
 
   *Localization team* (Python, FastAPI)
-  - Built infrastructure for LLM-assisted app-wide localization, enabling scalable translation workflows across multiple languages.
+  - Built the translation infrastructure behind an LLM-powered localization pipeline, cutting manual translation effort for app-wide releases across multiple languages.
 
 ]
 
@@ -78,33 +86,6 @@
 - Provided tailored feedback on assignments for 160+ students, improving their grasp of key concepts.
 ]
 
-= Projects
-
-#resume-entry(
-  title: "Quark Programming Language",
-  location: [#github-link("rasibn/quark")],
-  date: "",
-  description: "Rust, Recursive Descent Parsing",
-)
-
-#resume-item[
-  - Created an ergonomic DSL for quantum computing by building a complete programming language that transpiles to Python NumPy for efficient computation.
-  - Achieved full language functionality by implementing lexer, parser, and semantic analyzer supporting functions, variables, scoping, types, arrays, and matrix operations.
-]
-
-// #resume-entry(
-//   title: "Rustaurant",
-//   location: [#github-link("rasibn/Rustaurant")],
-//   date: "",
-//   description: "Rust, WASM, axum, mongoDB",
-// )
-//
-// #resume-item[
-//   - Created a WASM based restaurant reviewing website using Rust (Used MongoDB as the db but probably should have tried opensearch :)
-// ]
-//
-
-
 = Skills
 
 #resume-skill-item(
@@ -118,19 +99,61 @@
   ),
 )
 #resume-skill-item(
-  "Technologies",
+  "Backend & Data",
   (
-    "React",
-    "Vue.js",
-    "Svelte",
+    "Microservices",
+    "REST APIs",
     "Spring Boot",
+    "MySQL",
     "Kafka",
-    "Linux",
-    "Nix",
+    "Event-Driven Architecture",
+  ),
+)
+#resume-skill-item(
+  "Frontend",
+  (
+    strong("React"),
+    strong("Next.js"),
+    "TypeScript",
+  ),
+)
+#resume-skill-item(
+  "Tools & Platforms",
+  (
     "Docker",
+    "Linux",
+    "Git",
+    "AWS",
   ),
 )
 #block(below: 0.65em)
+
+// = Projects
+//
+// #resume-entry(
+//   title: "Quark Programming Language",
+//   location: [#github-link("rasibn/quark")],
+//   date: "",
+//   description: "Rust, Recursive Descent Parsing",
+// )
+//
+// #resume-item[
+//   - Created an ergonomic DSL for quantum computing by building a complete programming language that transpiles to Python NumPy for efficient computation.
+//   - Achieved full language functionality by implementing lexer, parser, and semantic analyzer supporting functions, variables, scoping, types, arrays, and matrix operations.
+// ]
+
+// #resume-entry(
+//   title: "Rustaurant",
+//   location: [#github-link("rasibn/Rustaurant")],
+//   date: "",
+//   description: "Rust, WASM, axum, mongoDB",
+// )
+//
+// #resume-item[
+//   - Created a WASM based restaurant reviewing website using Rust (Used MongoDB as the db but probably should have tried opensearch :)
+// ]
+//
+
 
 = Education
 
