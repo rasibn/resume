@@ -51,7 +51,7 @@ Backend engineer with 2+ years at Careem building payment, subscription, and tri
   - Lead backend engineering for Careem's Bikes and Tenants verticals, covering trip services, payments, subscriptions, and partner integrations.
   - Rebuilt trip billing as an event-driven system, eliminating silent payment and refund failures and allowing processing to resume after service restarts.
   - Fixed recurring database outages by optimizing queries on tables with 7.5M+ rows; improved response times by up to 42x and halved customer-facing latency.
-  - Migrated bike subscriptions from a third-party vendor to an in-house billing platform with no downtime for existing subscribers.
+  - Migrated bike subscriptions from a third-party vendor to an in-house billing platform with no downtime; reduced latency from about 5,000 ms to 200 ms for users with many subscriptions.
   - Built pay-as-you-go billing for group rides, with card pre-authorization and automatic retries for failed payments.
   - Led backend delivery of 5 new tenant services, including Lab Test and Pest Control, in under 6 months, with payment and data integrations.
   - Migrated terabytes of customer data across home services categories with no downtime or data loss.
