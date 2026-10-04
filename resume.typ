@@ -15,7 +15,7 @@
     linkedin: "muhammad-rasib-nadeem",
     // address: "",
     positions: (
-      "AI-Native Software Engineer",
+      "Backend Software Engineer",
     ),
     custom: (),
   ),
@@ -35,7 +35,7 @@
 
 = Professional Summary
 
-High-agency software engineer with 2+ years at Careem (an Uber company) building payment and billing systems, microservices, frontends and data-heavy products used by millions of riders. Proven record of shipping revenue-critical features, fixing production outages, and leading delivery of 5 new product lines in 6 months. Strong in Golang, TypeScript, Java, Python, and event-driven architecture.
+Backend engineer with 2+ years at Careem building payment, subscription, and trip services. Experience with event-driven systems, production reliability, and partner integrations.
 
 = Professional Experience
 
@@ -47,18 +47,19 @@ High-agency software engineer with 2+ years at Careem (an Uber company) building
 )
 
 #resume-item[
-  *Bikes & Tenants team* (Golang, Spring Boot, NextJS, MySQL, Kafka)
-  - Reduced silent payment and refund failures to zero by rebuilding the trip billing flow as an event-driven system that guarantees every charge and refund completes, even across service restarts; on track to lift payment success rate by 5+ points in Dubai to ~97% and ~10 points in Madinah to ~82% at full rollout.
-  - Eliminated recurring production database outages by fixing slow queries on tables with 7.5M+ rows, improving response times by up to 42x and cutting customer-facing latency in half.
-  - Owned the migration of bike subscriptions from a third-party vendor to an in-house billing platform, bringing recurring payments and pricing fully in-house with zero downtime for existing subscribers.
-  - Designed and launched Pay-As-You-Go billing for group rides, a new revenue stream, including secure card pre-authorization and automatic retries that recover failed payments without user action.
-  - Led backend delivery of 5 new tenant service lines (including Lab Test and Pest Control) in under 6 months, each shipped on time with full payment and data integration.
-  - Migrated terabytes of customer data across home services categories with zero downtime and no data loss.
-  - Built an internal operator dashboard used daily by operations teams to manage vehicles, pricing zones, and stations; drove its adoption by consistently shipping proactive fixes and UX improvements well beyond the initial scope.
-  - Strengthened release reliability by automating the release pipeline and expanding end-to-end test coverage across payment, subscription, and trip services.
+  *Bikes & Tenants* (Go, Spring Boot, Next.js, MySQL, Kafka)
+  - Lead backend engineering for Careem's Bikes and Tenants verticals, covering trip services, payments, subscriptions, and partner integrations.
+  - Rebuilt trip billing as an event-driven system, eliminating silent payment and refund failures and allowing processing to resume after service restarts.
+  - Fixed recurring database outages by optimizing queries on tables with 7.5M+ rows; improved response times by up to 42x and halved customer-facing latency.
+  - Migrated bike subscriptions from a third-party vendor to an in-house billing platform with no downtime for existing subscribers.
+  - Built pay-as-you-go billing for group rides, with card pre-authorization and automatic retries for failed payments.
+  - Led backend delivery of 5 new tenant services, including Lab Test and Pest Control, in under 6 months, with payment and data integrations.
+  - Migrated terabytes of customer data across home services categories with no downtime or data loss.
+  - Built an operator dashboard used daily to manage vehicles, pricing zones, and stations.
+  - Automated releases and expanded end-to-end tests for payment, subscription, and trip services.
 
   *Localization team* (Python, FastAPI)
-  - Built the translation infrastructure behind an LLM-powered localization pipeline, cutting manual translation effort for app-wide releases across multiple languages.
+  - Built infrastructure for an LLM-powered localization pipeline, reducing manual translation work across multiple languages.
 
 ]
 
@@ -82,8 +83,8 @@ High-agency software engineer with 2+ years at Careem (an Uber company) building
 )
 
 #resume-item[
-- Held tutorials and office hours to clarify difficult topics in Theory of Computation and Algorithm Design courses.
-- Provided tailored feedback on assignments for 160+ students, improving their grasp of key concepts.
+- Ran tutorials and office hours for Theory of Computation and Algorithm Design.
+- Reviewed assignments and provided feedback for 160+ students.
 ]
 
 = Skills
@@ -91,7 +92,7 @@ High-agency software engineer with 2+ years at Careem (an Uber company) building
 #resume-skill-item(
   "Programming Languages",
   (
-    strong("Golang"),
+    strong("Go"),
     strong("Python"),
     strong("JavaScript/TypeScript"),
     strong("Rust"),
