@@ -56,7 +56,7 @@ Backend engineer with 2+ years at Careem building payment, subscription, and tri
   - Led backend delivery of 5 new tenant services, including Lab Test and Pest Control, in under 6 months, with payment and data integrations.
   - Migrated terabytes of customer data across home services categories with no downtime or data loss.
   - Built an operator dashboard used daily to manage vehicles, pricing zones, and stations.
-  - Automated releases and expanded end-to-end tests for payment, subscription, and trip services.
+  - Built local payment-callback tooling and improved developer and coding-agent workflows with repository guidance, local coverage checks, faster acceptance tests, and release automation.
 
   *Localization team* (Python, FastAPI)
   - Built infrastructure for an LLM-powered localization pipeline, reducing manual translation work across multiple languages.
